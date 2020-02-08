@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "登录模板"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "订单"
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Operate/Operate",
+            "style" : {
+				"navigationBarTitleText": "门店运营"
+			}
+        }
+        ,{
+            "path" : "pages/set-up/set-up",
+            "style" : {
+				"navigationBarTitleText": "店面设置"
+			}
+        }
+        ,{
+            "path" : "pages/store-administration/store-administration",
+            "style" : {
+				"navigationBarTitleText": "商品管理"
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/order/order",
+			"text": "订单",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		},{
+			"pagePath": "pages/contact/contact",
+			"text": "在线联系",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		},{
+			"pagePath": "pages/Operate/Operate",
+			"text": "店门运营",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		},{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#ffbe00",
+		"backgroundColor": "#fbf9fe"
+	}
+}
