@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="scroll-x" >
-			<scroll-view class="navx" scroll-x="true" >
+			<scroll-view class="navx" scroll-x="true" show-scrollbar="false">
 				<view :class="['navx-item',index1===currentIndexX ? 'active' : '']" v-for="(item1,index1) in navx" :key="index1" @tap="taps(index1)">
 					<view>{{item1}}</view>
 				</view>
@@ -174,6 +174,8 @@
 		/* padding-top: 20rpx; */
 		/* height: 300rpx; */
 		margin-top: 50rpx;
+		border-bottom: 2rpx solid #8E8E8E;
+		padding-bottom: 20rpx;
 	}
 	.store .store-item .img {
 		display: inline-block;
@@ -190,7 +192,7 @@
 		width: 360rpx;
 	}
 	.store .store-item .info .foot-name {
-		font-size: 35rpx;
+		font-size: 30rpx;
 		/* margin-top: 30rpx; */
 	}
 	.store .store-item .info .Sale {
@@ -214,7 +216,7 @@
 		
 	}
 	.store .store-item .info .number .disappear {
-		border: 1px solid #909092;
+		border: 2rpx solid #ffbe00;
 		padding: 8rpx 4px;
 		display: inline-block;
 		width: 140rpx;

@@ -93,10 +93,13 @@
 		/* display: inline-block; */
 		background-color: #fff;
 		display: flex; 
-		height: 90rpx;
-		line-height: 90rpx;
+		/* height: 80rpx; */
+		/* line-height: 80rpx; */
 		float: right;
-		padding: 0 10rpx;
+		padding: 10rpx 30rpx;
+		border-radius: 40rpx;
+		box-sizing: border-box;
+		margin-top: 15rpx;
 	}
 	.order-options-item{
 		font-size: 30upx;

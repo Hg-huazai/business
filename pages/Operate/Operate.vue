@@ -21,7 +21,7 @@
 			</view>
 		</view>
 		<view class="spread">
-			<view class="spread-top">
+			<!-- <view class="spread-top">
 				<navigator url="">
 					<view class="img">
 						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
@@ -48,38 +48,39 @@
 						</view>
 					</view>
 				</navigator>
-			</view>
+			</view> -->
 			<view class="spread-bottom">
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<!-- <image src="../../static/img/images/images/mendian1.png" mode=""></image> -->
+						<view class="iconfont icon-activity_icon"></view>
 					</view>
 					<view class="text">
-						配送信息
+						活动报名
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-xiaochengxutubiaoguilei1"></view>
 					</view>
 					<view class="text">
-						配送信息
+						门店装修
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-zhineng"></view>
 					</view>
 					<view class="text">
-						配送信息
+						智能满减
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-shuoshi"></view>
 					</view>
 					<view class="text">
-						配送信息
+						袋鼠学院
 					</view>
 				</navigator>
 				
@@ -93,7 +94,7 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-dianpingche"></view>
 					</view>
 					<view class="text">
 						配送信息
@@ -101,7 +102,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian2.png" mode=""></image>
+						<view class="iconfont icon-icon-test"></view>
 					</view>
 					<view class="text">
 						出餐时间
@@ -109,7 +110,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian3.png" mode=""></image>
+						<view class="iconfont icon-text-two"></view>
 					</view>
 					<view class="text">
 						订单赔偿	
@@ -117,7 +118,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian4.png" mode=""></image>
+						<view class="iconfont icon-fuwushuoming"></view>
 					</view>
 					<view class="text">
 						服务说明
@@ -132,7 +133,7 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-huiyuan-"></view>
 					</view>
 					<view class="text">
 						美团会员
@@ -140,7 +141,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian2.png" mode=""></image>
+						<view class="iconfont icon-shequ1"></view>
 					</view>
 					<view class="text">
 						商家社区
@@ -148,7 +149,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian3.png" mode=""></image>
+						<view class="iconfont icon-daishu"></view>
 					</view>
 					<view class="text">
 						袋鼠店长
@@ -156,7 +157,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian4.png" mode=""></image>
+						<view class="iconfont icon-qrcode"></view>
 					</view>
 					<view class="text">
 						二维码推广
@@ -168,7 +169,7 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian1.png" mode=""></image>
+						<view class="iconfont icon-menlingsiyinshejic"></view>
 					</view>
 					<view class="text">
 						美团会员
@@ -176,23 +177,23 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian2.png" mode=""></image>
+						<view class="iconfont icon-zhongguohangtiantubiaoheji-weizhuanlunkuo-"></view>
 					</view>
 					<view class="text">
-						商家社区
+						快速出餐
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian3.png" mode=""></image>
+						<view class="iconfont icon-renzheng"></view>
 					</view>
 					<view class="text">
-						袋鼠店长
+						安全认证
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/mendian4.png" mode=""></image>
+						<view class="iconfont icon-dangao"></view>
 					</view>
 					<view class="text">
 						二维码推广
@@ -204,7 +205,7 @@
 			<view class="classify-bottom">
 				<navigator url="../store-administration/store-administration">
 					<view class="img">
-						<image src="../../static/img/images/images/classify_03.png" mode=""></image>
+						<view class="iconfont icon-shangpin"></view>
 					</view>
 					<view class="text">
 						商品管理
@@ -212,7 +213,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/classify_05.png" mode=""></image>
+						<view class="iconfont icon-guke-weixuan"></view>
 					</view>
 					<view class="text">
 						顾客管理
@@ -220,7 +221,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/classify_07.png" mode=""></image>
+						<view class="iconfont icon-duizhang"></view>
 					</view>
 					<view class="text">
 						财务对账
@@ -228,7 +229,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<image src="../../static/img/images/images/classify_09.png" mode=""></image>
+						<view class="iconfont icon-jingyingshujuicon"></view>
 					</view>
 					<view class="text">
 						营运数据
@@ -326,10 +327,10 @@
 	}
 	.spread .spread-bottom navigator {
 		flex: 1;
+		text-align: center;
 	}
-	.spread .spread-bottom navigator .img image{
-		width: 140rpx;
-		height: 140rpx;
+	.spread .spread-bottom navigator .img .iconfont{
+		font-size: 80rpx;
 	}
 	
 	.spread .spread-bottom navigator {
@@ -357,10 +358,14 @@
 	}
 	.classify .classify-bottom navigator {
 		flex: 1;
+		text-align: center;
 	}
-	.classify .classify-bottom navigator .img image {
-		width: 100rpx;
-		height: 100rpx;
+	.classify .classify-bottom navigator .img .iconfont {
+		font-size: 80rpx;
+	}
+	.classify .classify-bottom navigator .img image  {
+		width: 120rpx;
+		height: 120rpx;
 	}
 	.classify .classify-bottom navigator .text {
 		color: #909092;
@@ -387,10 +392,10 @@
 	}
 	.classify2 .classify-bottom navigator {
 		flex: 1;
+		text-align: center;
 	}
-	.classify2 .classify-bottom navigator .img image {
-		width: 100rpx;
-		height: 100rpx;
+	.classify2 .classify-bottom navigator .img .iconfont {
+		font-size: 80rpx;
 	}
 	.classify2 .classify-bottom navigator .text {
 		color: #909092;

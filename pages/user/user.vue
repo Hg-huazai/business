@@ -62,19 +62,19 @@
 		</view>
 		<view class="set-up">
 			<navigator url="../set-up/set-up">
-				<image src="../../static/img/images/images/classify_09.png" mode=""></image>
+				<view class="iconfont icon-xiaochengxutubiaoguilei1"></view>
 				<view class='text'>门店设置</view>
 			</navigator>
 			<navigator>
-				<image src="../../static/img/images/images/classify_09.png" mode=""></image>
+				<view class="iconfont icon-text-two"></view>
 				<view class='text'>订单设置</view>
 			</navigator>
 			<navigator>
-				<image src="../../static/img/images/images/classify_09.png" mode=""></image>
+				<view class="iconfont icon-zhineng"></view>
 				<view class='text'>打印设置</view>
 			</navigator>
 			<navigator>
-				<image src="../../static/img/images/images/classify_09.png" mode=""></image>
+				<view class="iconfont icon-menlingsiyinshejic"></view>
 				<view class='text'>消息和铃声</view>
 			</navigator>
 		</view>
@@ -255,16 +255,15 @@
 	}
 	.set-up navigator {
 		flex: 1;
-		border-right: 1px solid #8F8F94;
-		padding: 20px 0;
+		/* border-right: 1px solid #8F8F94; */
+		padding: 20rpx 0;
+		text-align: center;
 	}
 	.set-up navigator:last-child {
 		border-right: none;
 	}
-	.set-up navigator image {
-		height: 100rpx;
-		width: 100rpx;
-		margin-left: 40rpx;
+	.set-up navigator .iconfont {
+		font-size: 90rpx;
 	}
 	.set-up navigator .text {
 		font-size: 18rpx;
