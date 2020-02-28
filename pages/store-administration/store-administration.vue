@@ -25,7 +25,7 @@
 					</view>
 					<view class="info">
 						<view class="foot-name">
-							老面油条真的好奸猾是真的耶耶耶耶
+							老面炸油条(民间小吃)66666666666666666666666666
 						</view>
 						<view class="Sale">
 							月售3
@@ -50,7 +50,7 @@
 					</view>
 					<view class="info">
 						<view class="foot-name">
-							老面油条真的好奸猾是真的耶耶耶耶
+							老面炸油条(民间小吃)
 						</view>
 						<view class="Sale">
 							月售3
@@ -71,6 +71,11 @@
 				</view>
 			</view>
 		</view>
+		<view class="b-bottom">
+			<view class="item">管理分类</view>
+			<view class="item"><i class="iconfont icon-paixu" style="color: #eabe67;"></i>排序&批量</view>
+			<view class="item"><i class="iconfont icon-zengjia-" style="color: #eabe67;"></i>新建商品</view>
+		</view>
 	</view>
 </template>
 
@@ -90,6 +95,16 @@
 					'满减煲仔粥',
 					'熬制炖汤',
 					'大折扣,煲仔饭',
+					'满减煲仔粥',
+					'熬制炖汤',
+					'大折扣,煲仔饭',
+					'满减煲仔粥',
+					'熬制炖汤',
+					'满减煲仔粥',
+					'熬制炖汤',
+					'大折扣,煲仔饭',
+					'满减煲仔粥',
+					'熬制炖汤',
 					'满减煲仔粥',
 					'熬制炖汤',
 					'大折扣,煲仔饭',
@@ -119,6 +134,9 @@
 </script>
 
 <style>
+	.content {
+		padding: 0;
+	}
 	.content {
 		width: 100%;
 		box-sizing: border-box;
@@ -153,9 +171,9 @@
 	}
 	.navy {
 	  padding: 5rpx 0;
-	  height: 900rpx;
+	  height: 1050rpx;
 	  width: 100%;
-	  background-color: #f4f4f6;
+	  background-color: #f4f4f4;
 	  color: #9b9b9b;
 	
 	}
@@ -166,15 +184,16 @@
 	}
 	.store {
 		display: inline;
-		float: right;
-		width: 73%;
+		float: left;
+		width: 70%;
+		margin-left: 2%;
 	}
 	.store .store-item{
 		/* background-color: pink; */
 		/* padding-top: 20rpx; */
 		/* height: 300rpx; */
 		margin-top: 50rpx;
-		border-bottom: 2rpx solid #8E8E8E;
+		/* border-bottom: 2rpx solid #8E8E8E; */
 		padding-bottom: 20rpx;
 	}
 	.store .store-item .img {
@@ -193,6 +212,10 @@
 	}
 	.store .store-item .info .foot-name {
 		font-size: 30rpx;
+		font-weight: bold;
+		overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
 		/* margin-top: 30rpx; */
 	}
 	.store .store-item .info .Sale {
@@ -216,12 +239,13 @@
 		
 	}
 	.store .store-item .info .number .disappear {
-		border: 2rpx solid #ffbe00;
+		border: 2rpx solid #cdcdcd;
 		padding: 8rpx 4px;
 		display: inline-block;
 		width: 140rpx;
 		text-align: center;
 		font-size: 24rpx;
+		color: #cdcdcd;
 	} 
 	.store .store-item .info .number .disappear:nth-child(2) {
 		margin-left: 20rpx;
@@ -229,6 +253,31 @@
 	.classify-name {
 		float: left;
 		margin-left: 15rpx;
+		padding-top: 30rpx;
+		width: 70%;
+		font-weight: bold;
+	}
+	.b-bottom {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		justify-content:space-around;
 		padding: 30rpx 0;
+		border-top: 2rpx solid #cdcdcd;
+	}
+	.b-bottom {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		justify-content:space-around;
+	}
+	.b-bottom .item {
+		font-size: 30rpx;
+	}
+	.b-bottom .iconfont{
+		font-size: 35rpx;
+		margin-right: 10rpx;
 	}
 </style>

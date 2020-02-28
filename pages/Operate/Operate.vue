@@ -53,7 +53,7 @@
 				<navigator url="">
 					<view class="img">
 						<!-- <image src="../../static/img/images/images/mendian1.png" mode=""></image> -->
-						<view class="iconfont icon-activity_icon"></view>
+						<view class="iconfont icon-activity_icon" style="color: #68afe5;"></view>
 					</view>
 					<view class="text">
 						活动报名
@@ -61,7 +61,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-xiaochengxutubiaoguilei1"></view>
+						<view class="iconfont icon-xiaochengxutubiaoguilei1" style="color: #ff7071;"></view>
 					</view>
 					<view class="text">
 						门店装修
@@ -69,7 +69,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-zhineng"></view>
+						<view class="iconfont icon-zhineng1" style="color: #6dc0a4;"></view>
 					</view>
 					<view class="text">
 						智能满减
@@ -77,7 +77,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-shuoshi"></view>
+						<view class="iconfont icon-xueyuan" style="color: #fbbd4c;"></view>
 					</view>
 					<view class="text">
 						袋鼠学院
@@ -94,7 +94,7 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-dianpingche"></view>
+						<view class="iconfont icon-dianpingche" style="color: #f8c550;"></view>
 					</view>
 					<view class="text">
 						配送信息
@@ -102,7 +102,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-icon-test"></view>
+						<view class="iconfont icon-icon-test" style="color: #4bacfb;"></view>
 					</view>
 					<view class="text">
 						出餐时间
@@ -110,7 +110,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-text-two"></view>
+						<view class="iconfont icon-icon--copy1" style="color: #40d4a4;"></view>
 					</view>
 					<view class="text">
 						订单赔偿	
@@ -118,7 +118,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-fuwushuoming"></view>
+						<view class="iconfont icon-fuwushuoming" style="color: #59c7de;"></view>
 					</view>
 					<view class="text">
 						服务说明
@@ -133,7 +133,7 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-huiyuan-"></view>
+						<view class="iconfont icon-huiyuan-" style="color: #febe50;"></view>
 					</view>
 					<view class="text">
 						美团会员
@@ -141,7 +141,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-shequ1"></view>
+						<view class="iconfont icon-shequ1" style="color: #f7ba4f;"></view>
 					</view>
 					<view class="text">
 						商家社区
@@ -149,7 +149,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-daishu"></view>
+						<view class="iconfont icon-dianchangtongxiaochengxu-huiyuanqingkuang-xinzenghuiyuan" style="color: #fdc12f;"></view>
 					</view>
 					<view class="text">
 						袋鼠店长
@@ -157,7 +157,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-qrcode"></view>
+						<view class="iconfont icon-qrcode" style="color: #3fcd9d;"></view>
 					</view>
 					<view class="text">
 						二维码推广
@@ -169,15 +169,15 @@
 			<view class="classify-bottom">
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-menlingsiyinshejic"></view>
+						<view class="iconfont icon-menlingsiyinshejic" style="color: #44c978;"></view>
 					</view>
 					<view class="text">
-						美团会员
+						美团提醒
 					</view>
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-zhongguohangtiantubiaoheji-weizhuanlunkuo-"></view>
+						<view class="iconfont icon-zhongguohangtiantubiaoheji-weizhuanlunkuo-" style="color: #3fcd9d;"></view>
 					</view>
 					<view class="text">
 						快速出餐
@@ -185,7 +185,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-renzheng"></view>
+						<view class="iconfont icon-renzheng" style="color: #52b4fb;"></view>
 					</view>
 					<view class="text">
 						安全认证
@@ -193,10 +193,10 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-dangao"></view>
+						<view class="iconfont icon-waimai" style="color: #3fd1a0;"></view>
 					</view>
 					<view class="text">
-						二维码推广
+						美团快餐
 					</view>
 				</navigator>
 			</view>
@@ -205,7 +205,7 @@
 			<view class="classify-bottom">
 				<navigator url="../store-administration/store-administration">
 					<view class="img">
-						<view class="iconfont icon-shangpin"></view>
+						<view class="iconfont icon-dianpu" style="color: #ffc44c;"></view>
 					</view>
 					<view class="text">
 						商品管理
@@ -213,7 +213,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-guke-weixuan"></view>
+						<view class="iconfont icon-guke-weixuan" style="color: #4bb7f8;"></view>
 					</view>
 					<view class="text">
 						顾客管理
@@ -221,7 +221,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-duizhang"></view>
+						<view class="iconfont icon-caiwu" style="color: #32bf8b;"></view>
 					</view>
 					<view class="text">
 						财务对账
@@ -229,7 +229,7 @@
 				</navigator>
 				<navigator url="">
 					<view class="img">
-						<view class="iconfont icon-jingyingshujuicon"></view>
+						<view class="iconfont icon-icon-test1" style="color: #ff6668;"></view>
 					</view>
 					<view class="text">
 						营运数据
@@ -330,7 +330,7 @@
 		text-align: center;
 	}
 	.spread .spread-bottom navigator .img .iconfont{
-		font-size: 80rpx;
+		font-size: 60rpx;
 	}
 	
 	.spread .spread-bottom navigator {
@@ -350,7 +350,8 @@
 		margin-bottom: 30rpx;
 	}
 	.classify .classify-top {
-		
+		border-bottom: 2rpx solid #e4ece4;
+		padding-bottom: 20rpx;
 	}
 	.classify .classify-bottom {
 		display: flex;
@@ -361,7 +362,7 @@
 		text-align: center;
 	}
 	.classify .classify-bottom navigator .img .iconfont {
-		font-size: 80rpx;
+		font-size: 60rpx;
 	}
 	.classify .classify-bottom navigator .img image  {
 		width: 120rpx;
@@ -377,7 +378,7 @@
 		padding: 40rpx;
 		padding-top: 10rpx;
 		position: absolute;
-		top: 200rpx;
+		top: 220rpx;
 		left: 0;
 		right: 0;
 		box-shadow:0 0 1px #000 inset;
@@ -394,8 +395,11 @@
 		flex: 1;
 		text-align: center;
 	}
+	.classify2 .classify-bottom navigator .img {
+		margin-bottom: 20rpx;
+	}
 	.classify2 .classify-bottom navigator .img .iconfont {
-		font-size: 80rpx;
+		font-size: 60rpx;
 	}
 	.classify2 .classify-bottom navigator .text {
 		color: #909092;

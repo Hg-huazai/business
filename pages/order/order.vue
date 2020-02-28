@@ -69,7 +69,7 @@
 		},
 		methods: {
 			 taps(e) {
-					console.log(e)
+					// console.log(e)
 					this.currentIndex = e;
 				}
 		}

@@ -11,18 +11,18 @@
 					</view>
 					<view class="info-work">
 						<view class="dian"></view>
-						<text> &nbsp;营业中 &gt;</text>
+						<text class="text"> &nbsp;营业中 <i class="iconfont icon-youjiantou"></i></text>
 					</view>
 				</view>
 			</view>
 			<view class="info-right">
-				&gt;
+				<i class="iconfont icon-youjiantou"></i>
 			</view>
 		</view>
 		<view class="wellet">
 			<view class="wellet-top">
 				<view class="money">我的钱包</view>
-				<navigator url="">进入钱包 &gt;</navigator>
+				<navigator url="">进入钱包 <i class="iconfont icon-youjiantou"></i></navigator>
 			</view>
 			<view class="wellet-bottom">
 				<view class="wellet-bottom-item">
@@ -62,19 +62,19 @@
 		</view>
 		<view class="set-up">
 			<navigator url="../set-up/set-up">
-				<view class="iconfont icon-xiaochengxutubiaoguilei1"></view>
+				<view class="iconfont icon-xiaochengxutubiaoguilei1" style="color: #f0b519;"></view>
 				<view class='text'>门店设置</view>
 			</navigator>
 			<navigator>
-				<view class="iconfont icon-text-two"></view>
+				<view class="iconfont icon-text-two" style="color: #4592fe;"></view>
 				<view class='text'>订单设置</view>
 			</navigator>
 			<navigator>
-				<view class="iconfont icon-zhineng"></view>
+				<view class="iconfont icon-zhineng" style="color: #f17269;"></view>
 				<view class='text'>打印设置</view>
 			</navigator>
 			<navigator>
-				<view class="iconfont icon-menlingsiyinshejic"></view>
+				<view class="iconfont icon-menlingsiyinshejic" style="color: #9459e7;"></view>
 				<view class='text'>消息和铃声</view>
 			</navigator>
 		</view>
@@ -84,19 +84,19 @@
 				<li>
 					<navigator>
 						<text class="service-left">联系业务经理</text>
-						<text class="service-right">&gt;</text>
+						<text class="service-right iconfont icon-youjiantou"></text>
 					</navigator>
 				</li>
 				<li>
 					<navigator>
 						<text class="service-left">商家服务中心</text>
-						<text class="service-right">&gt;</text>
+						<text class="service-right iconfont icon-youjiantou"></text>
 					</navigator>
 				</li>
 				<li>
 					<navigator>
 						<text class="service-left">意见反馈</text>
-						<text class="service-right">&gt;</text>
+						<text class="service-right iconfont icon-youjiantou"></text>
 					</navigator>
 				</li>
 			</ul>
@@ -106,14 +106,14 @@
 				<li>
 					<navigator>
 						<text class="service-left">当前账号</text>
-						<text class="service-right">&gt;</text>
+						<text class="service-right iconfont icon-youjiantou"></text>
 						<text class="new">6677876665</text>
 					</navigator>
 				</li>
 				<li>
 					<navigator>
 						<text class="service-left">检查版本更新</text>
-						<text class="service-right">&gt;</text>
+						<text class="service-right iconfont icon-youjiantou"></text>
 					</navigator>
 				</li>
 			</ul>
@@ -158,9 +158,13 @@
 </script>
 
 <style>
+	.content {
+		padding: 0;
+	}
 	.info {
-		margin: 40rpx 0;
-		/* background-color: pink; */
+		margin-bottom: 20rpx;
+		background-color: #FFFFFF;
+		padding: 20rpx;
 		
 	}
 	.info .info-left {
@@ -187,16 +191,24 @@
 		margin-bottom: 10rpx;
 	}
 	.info .info-left .info-item .info-work {
-		background-color: #eae8e9;
+		background-color: #f7f6f6;
 		display: inline;
-		padding: 2rpx 15rpx;
+		padding: 8rpx 15rpx;
+		font-size: 20rpx;
+		border-radius: 10rpx;
+		color: #9e9e9e;
+	}
+	.info .info-left .info-item .info-work .text i{
+		font-size: 15rpx;
+		color: #9e9e9e;
 	}
 	.info .info-left .info-item .info-work .dian {
 		display: inline-block;
-		width: 20rpx;
-		height: 20rpx;
+		width: 15rpx;
+		height: 15rpx;
 		border-radius: 50%;
 		background-color: #1fc57b;
+		margin-right: 10rpx;
 	}
 	.info .info-right {
 		float:right;
@@ -212,6 +224,8 @@
 	}
 	.wellet .wellet-top {
 		width: 100%;
+		border-bottom: 2rpx solid #c7c5d2;
+		padding-bottom: 20rpx;
 	}
 	.wellet .money {
 		display: inline-block;
@@ -222,9 +236,14 @@
 		float: right;
 		font-size: 16rpx;
 	}
+	.wellet navigator .iconfont {
+		color: #8E8E8E;
+		font-size: 13rpx;
+		margin-left: 10rpx;
+	}
 	.wellet .wellet-bottom {
 		display: flex;
-		margin-top: 40rpx;
+		margin-top: 20rpx;
 		justify-content: space-between;
 	}
 	
@@ -263,14 +282,16 @@
 		border-right: none;
 	}
 	.set-up navigator .iconfont {
-		font-size: 90rpx;
+		font-size: 50rpx;
 	}
 	.set-up navigator .text {
-		font-size: 18rpx;
+		font-size: 10rpx;
 		/* display: inline-block; */
-		width: 100%;
+		/* width: 100%; */
 		text-align: center;
-		margin: 0 auto;
+		/* margin: 0 auto; */
+		margin-top: 10rpx;
+		color: #9f9fa1;
 	}
 	.service {
 		background-color: #FFFFFF;
@@ -283,7 +304,7 @@
 		list-style: none;
 		height: 100rpx;
 		line-height: 100rpx;
-		border-bottom: 1px solid #989898;
+		border-bottom: 2rpx solid #eae8e9;
 		padding: 0 18rpx;
 		
 	}
@@ -297,13 +318,28 @@
 		
 	}
 	.service li navigator .service-left {
-		
+		color: #6B6B6B;
+		font-size: 34rpx;
 	}
 	.service li navigator .service-right {
 		float: right;
 	}
+	.service li navigator .service-right.iconfont {
+		font-size: 20rpx;
+		color: #eae8e9;
+	}
 	.service li navigator .new {
 		float: right;
-		font-size: 18rpx;
+		font-size: 10rpx;
+		color: #6B6B6B;
+	}
+	.btn-row {
+		margin-top: 20rpx;
+		background-color: #FFFFFF;
+	}
+	.btn-row button{
+		border-radius: 60rpx;
+		margin: 0 50rpx;
+		font-size: 35rpx;
 	}
 </style>
