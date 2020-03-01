@@ -160,12 +160,12 @@
 	.service li navigator .service-right {
 		float: right;
 		color: #b9b9b9;
-		font-size: 18rpx;
+		font-size: 25rpx;
 		margin-left: 10rpx;
 	}
 	.service li navigator .new {
 		float: right;
-		font-size: 18rpx;
+		font-size: 25rpx;
 		color: #b9b9b9;
 	}
 	.service li navigator .new1 {

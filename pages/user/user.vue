@@ -285,7 +285,7 @@
 		font-size: 50rpx;
 	}
 	.set-up navigator .text {
-		font-size: 10rpx;
+		font-size: 30rpx;
 		/* display: inline-block; */
 		/* width: 100%; */
 		text-align: center;

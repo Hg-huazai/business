@@ -88,6 +88,7 @@
 		box-sizing: border-box;
 		/* display: inline-block; */
 		float: left;
+		border-radius: 20rpx;
 	}
 	.order-top .search {
 		/* display: inline-block; */
@@ -97,19 +98,20 @@
 		/* line-height: 80rpx; */
 		float: right;
 		padding: 10rpx 30rpx;
-		border-radius: 40rpx;
+		border-radius: 80rpx;
 		box-sizing: border-box;
-		margin-top: 15rpx;
+		margin-top: 13rpx;
+		font-size: 26rpx;
 	}
 	.order-options-item{
-		font-size: 30upx;
+		font-size: 26rpx;
 		flex: 1;
 		text-align: center;
 		color: #C9C9C9;
-		height: 71rpx; 
-		line-height: 71rpx;
+		height: 65rpx; 
+		line-height: 65rpx;
 		color: #000000;
-		border-radius: 20rpx;
+		border-radius: 40rpx;
 		/* display: inline-block; */
 		
 		

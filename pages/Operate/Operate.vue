@@ -336,13 +336,16 @@
 	.spread .spread-bottom navigator {
 		flex: 1;
 	}
+	.spread .spread-bottom navigator .img {
+		margin-bottom: 15rpx;
+	}
 	.spread .spread-bottom navigator .img image {
 		width: 100rpx;
 		height: 100rpx;
 	}
 	.spread .spread-bottom navigator .text {
 		color: #909092;
-		font-size: 20rpx;
+		font-size: 30rpx;
 	}
 	.classify {
 		background-color: #FFFFFF;
@@ -361,6 +364,9 @@
 		flex: 1;
 		text-align: center;
 	}
+	.classify .classify-bottom navigator .img {
+		margin-bottom: 15rpx;
+	}
 	.classify .classify-bottom navigator .img .iconfont {
 		font-size: 60rpx;
 	}
@@ -370,7 +376,7 @@
 	}
 	.classify .classify-bottom navigator .text {
 		color: #909092;
-		font-size: 20rpx;
+		font-size: 30rpx;
 	}
 	.classify2 {
 		background-color: #FFFFFF;
@@ -403,6 +409,6 @@
 	}
 	.classify2 .classify-bottom navigator .text {
 		color: #909092;
-		font-size: 20rpx;
+		font-size: 30rpx;
 	}
 </style>

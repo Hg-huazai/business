@@ -74,7 +74,7 @@
 		<view class="b-bottom">
 			<view class="item">管理分类</view>
 			<view class="item"><i class="iconfont icon-paixu" style="color: #eabe67;"></i>排序&批量</view>
-			<view class="item"><i class="iconfont icon-zengjia-" style="color: #eabe67;"></i>新建商品</view>
+			<navigator class="item" url="./store-add"><i class="iconfont icon-zengjia-" style="color: #eabe67;"></i>新建商品</navigator>
 		</view>
 	</view>
 </template>
@@ -258,6 +258,7 @@
 		font-weight: bold;
 	}
 	.b-bottom {
+		background-color: #FFFFFF;
 		width: 100%;
 		position: fixed;
 		bottom: 0;

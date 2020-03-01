@@ -27,7 +27,8 @@
 			</view>
 		</view>
 		<view class="btn-row">
-			<button type="primary" class="primary" @tap="bindLogin">登录</button>
+			<!-- <button type="primary" class="primary" @tap="bindLogin">登录</button> -->
+			<button type="primary" class="primary" @tap="openinfo">登录</button>
 		</view>
 		<view class="action-row">
 			<navigator url="../reg/reg">注册账号</navigator>
@@ -196,6 +197,14 @@
 			changeTab(Inv){
 					that.navIdx = Inv;
 			},
+			
+			// 点击登录跳转直接跳转普通页面
+			openinfo() {
+				// console.log('4')
+				uni.switchTab({
+					url: '../order/order'
+				})
+			}
 		},
 		onReady() {
 			this.initPosition();

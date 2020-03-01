@@ -1,17 +1,20 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页,
 		{
-		    "path" : "pages/order/order",
-		    "style" : {
-				"navigationBarTitleText": "订单"
-			}
-		},
-		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录"
 			}
 		},
+		{
+		    "path" : "pages/order/order",
+		    "style" : {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		
+		
+		
 		{
 			"path": "pages/main/main",
 			"style": {
@@ -57,7 +60,13 @@
             "style" : {
 				"navigationBarTitleText": "商品管理"
 			}
-        }
+        },
+		{
+		    "path" : "pages/store-administration/store-add",
+		    "style" : {
+				"navigationBarTitleText": "新建商品"
+			}
+		}
     ],
 	"tabBar": {
 		"color": "#7a7e83",
