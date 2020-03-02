@@ -15,7 +15,7 @@
 <style>
 	/* 头条小程序需要把 iconfont 样式放到组件外 */
 	@import "components/m-icon/m-icon.css";
-	@import url("//at.alicdn.com/t/font_1650849_pwzn8tnlajs.css");
+	@import url("https://at.alicdn.com/t/font_1650849_pwzn8tnlajs.css");
 
 	/*每个页面公共css */
 	page {

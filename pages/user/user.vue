@@ -119,7 +119,9 @@
 			</ul>
 		</view>
 		<view class="btn-row">
-			<button v-if="!hasLogin" type="primary" class="primary" @tap="bindLogin">登录</button>
+			<!-- <button v-if="!hasLogin" type="primary" class="primary" @tap="bindLogin">登录</button>
+			<button v-if="hasLogin" type="default" @tap="bindLogout">退出登录</button> -->
+			<button v-if="!hasLogin" type="primary" class="primary" @tap="bindLogin">退出登录</button>
 			<button v-if="hasLogin" type="default" @tap="bindLogout">退出登录</button>
 		</view>
 	</view>
@@ -234,7 +236,7 @@
 	.wellet navigator {
 		display: inline-block;
 		float: right;
-		font-size: 16rpx;
+		font-size: 30rpx;
 	}
 	.wellet navigator .iconfont {
 		color: #8E8E8E;
@@ -252,18 +254,19 @@
 		/* flex: 1; */
 	}
 	.wellet .wellet-bottom .wellet-bottom-item .wellet-bottom-item1 {
-		font-size: 16rpx;
+		font-size: 25rpx;
 		margin: 0 auto;
 		color: #9f9fa1;
 	}
 	.wellet .wellet-bottom .wellet-bottom-item .wellet-bottom-item2 {
-		font-size: 8rpx;
+		font-size: 25rpx;
 		margin: 0 auto;
 		color: #9f9fa1;
 	}
 	.wellet .wellet-bottom .wellet-bottom-item .wellet-bottom-item2 text {
-		font-size: 50rpx;
+		font-size: 60rpx;
 		color: #000000;
+		font-weight: bold;
 	}
 	.set-up {
 		background-color: #FFFFFF;
@@ -330,7 +333,7 @@
 	}
 	.service li navigator .new {
 		float: right;
-		font-size: 10rpx;
+		font-size: 30rpx;
 		color: #6B6B6B;
 	}
 	.btn-row {
